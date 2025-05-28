@@ -23,8 +23,10 @@ export default function Home() {
 
   const { data: ethBalance } = useBalance({
     address,
-    enabled: !!address,
-    watch: true,
+    query: {
+      enabled: !!address,       
+      refetchInterval: 5000,    
+    },
   });
 
   const { data: TOKEN_ADDRESS } = useReadContract({
