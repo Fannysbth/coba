@@ -1,3 +1,6 @@
+udah sampai ini
+![Contoh Gambar](IMG-20250528-WA0040.jpg)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
